@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@android:color/white"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:padding="15dp"
+    >
+    <EditText
+
+        android:id="@+id/et_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:hint="请输入发送内容"
+        android:textSize="14sp"
+        />
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入间隔时间，已秒为单位"
+        android:textSize="14sp"
+        android:inputType="number"
+        />
+     <Button
+         android:id="@+id/btn_setsure"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/white"
+         android:text="确定"
+
+         />
+</LinearLayout>
+</LinearLayout>
